@@ -14,3 +14,9 @@ makrs[0] = 95
 print(makrs) # it will print [95, 80, 70, 60, 50]
 
 print(type(makrs)) # it will print <class 'list'>
+print(len(makrs)) # it will print 5
+
+
+#you can store different data type in a list
+my_list = [1, "hello", 3.14, True]
+print(my_list)
