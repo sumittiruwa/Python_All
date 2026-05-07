@@ -32,5 +32,11 @@ print(student[0]) # it will print mitsu
 print(student[1]) # it will print 23
 print(student[2]) # it will print bhatktapur
 
-student[0] = "ram" # it will give error because tuple is immutable  
-print(student)
+# student[0] = "ram" # it will give error because tuple is immutable  
+# print(student)  
+
+
+#List Slicing 
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers[0:5]) # it will print [1, 2, 3, 4, 5]
+print(numbers[5:10]) # it will print [6, 7, 8, 9, 10]       
