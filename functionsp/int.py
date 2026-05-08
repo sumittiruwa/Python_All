@@ -16,3 +16,10 @@ def sum(a, b):
     return s
 
 print(sum(5, 10))
+
+#build in function
+print(len("Hello World")) # it will print the length of the string
+print(type(5)) # it will print the type of the variable 
+print(type("Hello World")) # it will print the type of the variable
+print(type(5.5)) # it will print the type of the variable
+print(type(True)) # it will print the type of the variable
