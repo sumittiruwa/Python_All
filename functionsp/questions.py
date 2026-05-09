@@ -33,3 +33,12 @@ def factorial(n):
         fact *= i
         return fact
     print(factorial(5))
+
+
+
+    # program to convert usd to npr
+def converter(usd):
+    npr_value = usd * 151.09
+    print(usd, "USD is equal to NPR", npr_value, "NPR")
+
+converter(100)
