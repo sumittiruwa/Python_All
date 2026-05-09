@@ -23,3 +23,10 @@ print(type(5)) # it will print the type of the variable
 print(type("Hello World")) # it will print the type of the variable
 print(type(5.5)) # it will print the type of the variable
 print(type(True)) # it will print the type of the variable
+
+
+def calc( a=1 , b= 2):
+    return a + b
+print(calc()) # it will print 3
+print(calc(5)) # it will print 7
+print(calc(5, 10)) # it will print 15
