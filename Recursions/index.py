@@ -23,3 +23,9 @@ def show(n):
 show(1000) # it will print 5, 4, 3, 2, 1
 
 
+def factorial(n):
+    if n == 0:
+        return 1
+
+    return n * factorial(n-1)   
+
