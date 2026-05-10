@@ -1,0 +1,6 @@
+Varibles, 
+implicincient , don't a have to define varibales 
+python implemented varibles by its types  , like int, char, float, etc.
+
+
+
