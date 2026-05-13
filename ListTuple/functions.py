@@ -24,6 +24,5 @@ list.count(2) # it will count the number of times 2 is present in the list
 print(list.count(2)) # it will print 1
 list.index(2) # it will return the index of the first occurrence of 2 in the list
 print(list.index(2)) # it will print 1  
-
 list.copy() # it will return a copy of the list
 new_list = list.copy() # it will create a new list with the same elements as the    

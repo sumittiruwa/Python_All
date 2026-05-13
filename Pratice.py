@@ -8,3 +8,4 @@ print("Length of the name is " + str(len(name)))
 #
 str1 = "this is a string"
 
+
