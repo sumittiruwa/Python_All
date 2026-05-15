@@ -14,4 +14,8 @@ double_value = float_value * 2
 print(f"Integer value: {int_value}, Float value: {float_value}, Double value: {double_value}")
 
 
+age =int(input("Enter your age: "))
+
+
+
 
