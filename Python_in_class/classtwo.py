@@ -7,5 +7,8 @@ kelvin = celsius + 273.15
 print(f"The temperature in Kelvin is: {kelvin}")
 print(type(celsius)) # it will print <class 'float'>
 print(type(fahrenheit)) # it will print <class 'float'>
-print(type(kelvin)) # it will print <class 'float'>
+print(type(kelvin)) 
+
+
+
 
