@@ -12,3 +12,12 @@ while True:
         break
     else:
         print("Incorrect password. Try again.")
+
+
+#infinite loop example
+
+count = 0
+while count < 10:
+    print("wow")
+
+#used ctlr +c to stop the infinite loop
