@@ -1,0 +1,14 @@
+sen = input("Enter sentence: ")
+
+words = sen.split()
+result = []
+
+for word in words:
+    rev = ""
+
+    for i in range(len(word) - 1, -1, -1):
+        rev += word[i]
+
+    result.append(rev)
+
+print(" ".join(result))
