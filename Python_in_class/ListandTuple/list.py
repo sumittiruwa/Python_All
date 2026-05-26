@@ -14,3 +14,21 @@ def times_table(n, limit=10):
         result.append(f"{n} X {i} = {n*i}")
         
         return result
+    
+    
+# functions with loops adn lists
+
+def flatten(nested):
+    flat = []
+    for sublist in nested:
+        for item in sublist:
+            flat.append(item)
+            
+            return flat
+        
+data = [1,2,3,4,5,6,7,8]
+matrix = [[1,2,3], [2,3,4], [3,4,5]]
+
+print(find_evens(data))
+print(times_table(3,5))
+print(flatten(matrix))
