@@ -1,0 +1,127 @@
+Pandas Theory
+Introduction
+pandas is an open-source Python library used for data manipulation, analysis, and cleaning. It provides powerful and flexible data structures that make working with structured data easier and faster.
+Pandas is widely used in:
+
+
+Data Science
+
+
+Machine Learning
+
+
+Artificial Intelligence
+
+
+Data Analytics
+
+
+Research and Business Applications
+
+
+
+Features of Pandas
+
+
+Easy handling of large datasets
+
+
+Fast and efficient data analysis
+
+
+Supports CSV, Excel, JSON, and SQL data
+
+
+Powerful filtering and sorting
+
+
+Handles missing data
+
+
+Provides statistical operations
+
+
+Built on top of NumPy
+
+
+
+Main Data Structures
+1. Series
+A Series is a one-dimensional labeled array capable of storing different types of data.
+Example
+import pandas as pds = pd.Series([10, 20, 30, 40])print(s)
+
+2. DataFrame
+A DataFrame is a two-dimensional table consisting of rows and columns.
+Example
+import pandas as pddata = {    "Name": ["Sumit", "Ram", "Hari"],    "Age": [20, 21, 22]}df = pd.DataFrame(data)print(df)
+
+Common Pandas Operations
+Reading CSV File
+df = pd.read_csv("data.csv")
+Display First Rows
+print(df.head())
+Display Last Rows
+print(df.tail())
+Dataset Information
+print(df.info())
+Statistical Summary
+print(df.describe())
+Selecting a Column
+print(df["Name"])
+Filtering Data
+print(df[df["Age"] > 20])
+Adding New Column
+df["Salary"] = [20000, 25000, 30000]
+Removing Column
+df.drop("Salary", axis=1, inplace=True)
+
+Handling Missing Values
+Fill Missing Values
+df.fillna(0)
+Remove Missing Values
+df.dropna()
+
+Advantages of Pandas
+
+
+Simple and readable syntax
+
+
+Saves development time
+
+
+Efficient data handling
+
+
+Strong community support
+
+
+Useful for real-world projects
+
+
+
+Applications of Pandas
+
+
+Data Cleaning
+
+
+Data Visualization
+
+
+Financial Analysis
+
+
+Machine Learning
+
+
+Business Intelligence
+
+
+Research and Statistics
+
+
+
+Conclusion
+Pandas is one of the most essential Python libraries for data analysis and manipulation. Its powerful tools and simple syntax make it highly useful for beginners as well as professionals working with structured data.
