@@ -27,7 +27,8 @@ print(car1.model)
 
 #--init_-_function  auto call when object created
 class Person:
-    def __init__(self):
+    def __init__(self): # self is a reference to the current instance of the class
         print("This is a constructor")
         
 p1 = Person()
+

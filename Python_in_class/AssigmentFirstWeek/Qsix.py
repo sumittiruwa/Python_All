@@ -22,4 +22,4 @@ elif averege > 70:
     print("Recommendation: Data Analyst")
 else:
     print("Grade: C")
-    print("Recommendation: Software Developer")     
+    print("Recommendation: Software Developer")    

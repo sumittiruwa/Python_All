@@ -1,0 +1,7 @@
+for varibles in sequence :
+item in sequence
+
+
+
+
+break. continue .pass
