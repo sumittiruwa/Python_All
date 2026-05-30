@@ -13,3 +13,5 @@ print(df)
 
 
 print(df.isnull())
+
+print(df.isnull().sum())
