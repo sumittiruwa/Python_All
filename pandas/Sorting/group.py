@@ -11,3 +11,9 @@ df = pd.DataFrame(data)
  
 grouped = df.groupby("Age")["Salary"].sum()
 print(grouped)
+
+# multiple
+
+grouped = df.groupby(["Age","Name"])["Salary"].sum()
+print('Mulitple groud')
+print(grouped)
