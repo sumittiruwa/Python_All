@@ -1,0 +1,23 @@
+ 
+ 1. Numpy privide efficent stroage 
+ - it also provide efficient storage 
+ it is fast 
+ it is easy to learn 
+ numpy uses relatively less memory to stroe the data
+
+features :
+---speed ( 5200 times faster then normal python)
+----less memory 
+--- easy math operations
+----used in AI
+--- OS 
+
+
+uses 
+
+--- data science
+--- machine learning
+--- stock market adn finance
+--- medical research 
+--- image processing (photoshop, open cv)
+
