@@ -10,7 +10,7 @@ print(words)
 
 #using map() with lambda 
 
-names = ["alice", "bob", "charlie", "dave"]
+names = ["alice", "bob", "zharlie", "dave"]
 titled = list(map(lambda n: n.title(), names))
 print(titled)
 
