@@ -1,0 +1,9 @@
+2. give alist of names , normaize each name (stripe whitespace, title case)
+and print the cleaned list 
+
+3.  write a function is_palidrome(s) that return true if a string reads the same forwards and backwards
+
+4. build aa word frequency contet that takes a paragraph and return a dictornary of {wrd: count}
+
+5. write a simple chatbot using if-elif that respond to greeting , farewellls, adn a hep command using methods
+6. preprocess a raw tweet: lowercase, remove@ menton , urls , and punctuation , tokenuze

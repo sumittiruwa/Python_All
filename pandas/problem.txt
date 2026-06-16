@@ -1,0 +1,13 @@
+1- column, rows ?
+2- what type of data?
+3- missing data in which ?
+
+
+info()
+method
+
+1- number of rows and coulmn 
+2- name of the column
+3-data type in that 
+4- non null count
+5-memory usage of the data frame

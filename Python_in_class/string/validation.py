@@ -14,3 +14,5 @@ print(txt.isprintable())	# all char are printable
 print(txt.isidentifier())	# all char are valid identifier\
 print(txt.startswith("krihsna"))	# string start with "Krishna"
 print(txt.endswith("chaudhary"))	# string end with "Chaudhary
+
+

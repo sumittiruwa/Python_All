@@ -43,9 +43,9 @@ def guess_game():
     guess = int(input("Guess number (1-5): "))
 
     if guess == number:
-        print("🎉 You Win!")
+        print(" You Win!")
     else:
-        print("❌ You Lose! Number was:", number)
+        print(" You Lose! Number was:", number)
 
 
 def student_system():

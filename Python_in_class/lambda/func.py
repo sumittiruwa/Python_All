@@ -21,7 +21,6 @@ def accuracy(predictions, labels):
     correct = sum(p == l for p, l in zip(predictions, labels))
     return round(correct / len(labels) * 100, 2)
 
-
 def train_epoch(model, data, lr = 0.01):
     """simulate one traingning epoch"""
     

@@ -11,7 +11,7 @@ def modify_global():
     global x # declare intent to modify global 
     
     k = 999
-    print(f"modified  x to {x}")  # x change the varible
+    print(f"modified  x to {x}")  # x change the varible 
     
 show_scope()
 modify_global()

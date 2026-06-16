@@ -1,0 +1,1 @@
+def train_epoch(model, data, lr = 0.01):

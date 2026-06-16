@@ -24,3 +24,14 @@ print(sqaure(7))
 lo, hi = min_max([1,2,3,4,5,6])
 print(f"Min={lo}, Max={hi}")
 print(check_age(25))
+
+
+
+# using - return - correct 
+
+def add(a,b):
+    return a + b # hands back value
+
+result = add(3,4)
+print(result)  #shows 7 
+final = result + 10 
