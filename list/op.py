@@ -17,6 +17,6 @@ catalog.update(extras)
 text = "The cat sat on the mat the cat"
 freq = {}
 
-for owrd in text.split():
-    freq[word] = freq.get(word,0 ) + 1
+for word in text.split():
+    freq[word] = freq.get(word, 0 ) + 1
     print(freq)
