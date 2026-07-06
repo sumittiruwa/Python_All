@@ -1,0 +1,13 @@
+  key  terms 
+
+  1- data point 
+  2 - x-axis / y-axis
+  3- figure - whole window/ canvas
+  4 - axes  - graph box  actual area where ploto should be draw / draw inside figure
+  5- plot - actual line,bar inside the axes
+  6 - marker - 
+  7 - line style  - contionous connection 
+  8 - color - 
+  9 - legend
+  10  - label
+  11- title

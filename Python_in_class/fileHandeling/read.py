@@ -5,7 +5,7 @@ with open("scores.txt", "r", encoding="utf-8") as f:
 
 with open("scores.txt", "r", encoding="utf-8") as f:
     # readlines() - list of lines
-    lines = f.readlines()
+    lines = f.readlines()   # reads one ine per call - memory efficient use in a while loop 
 
     scores = [int(line.split()[1]) for line in lines]
 

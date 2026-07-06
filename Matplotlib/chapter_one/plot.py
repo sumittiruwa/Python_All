@@ -16,5 +16,8 @@ plt.plot(
     marker='o',
     markersize=10
 )
+plt.title("Monthly Sales")
+plt.xlabel("Month")
+plt.ylabel("Sales")
 
 plt.show()
