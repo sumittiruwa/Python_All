@@ -1,0 +1,3 @@
+- reganise code around ojects 
+- sckit learn
+- 
